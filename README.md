@@ -69,7 +69,7 @@ request.version 获取版本
 	- 跨域简单和复杂请求
 	- vuex做全局变量
 	- vuex-cookies 
-- 微职位 
+- 精华文章（BBC） 
 	- 拦截器
 	- 携带token 
 			
@@ -83,7 +83,7 @@ PS: api可以同一放在store中保存
     - 序列化：method
 - 用户登录 
     - update_or_create
-- 微职位 
+- 精华文章（BBC） 
     - 认证组件 
 			
 - 关联组件：
@@ -104,7 +104,7 @@ b. 修改购物信息
     redis->{
         	#后面两个数字代表：第一个是用户id，第二个是课程id
             shopping_car_6_11:{
-                'title':'法务',
+                'title':'语法',
                 'src':'xxx.png',
                 'policy':{
                     1:{id:'xx'.....},
@@ -152,14 +152,14 @@ b. 修改购物信息
 			payment_dict = {
 				'2': {
 					course_id:2,
-					'title': '法务一', 
+					'title': '语法一', 
 					'img': '1.jpg', 'policy_id': '4', 
 					'coupon': {}, 
 					'default_coupon': 0, 
 					'period': 210, 'period_display': '12个月', 'price': 122.0}, 
 				'1': {
 					course_id:2,
-					'title': '法务2', 
+					'title': '语法2', 
 					'img': '2.jpg', 
 					'policy_id': '2', 
 					'coupon': {
@@ -184,7 +184,7 @@ b. 修改购物信息
 			redis = {
 				payment_1_2:{
 					course_id:2,
-					'title': '法务1', 
+					'title': '语法1', 
 					'img': '1.jpg', 'policy_id': '4', 
 					'coupon': {}, 
 					'default_coupon': 0, 
@@ -192,7 +192,7 @@ b. 修改购物信息
 				},
 				payment_1_1:{
 					course_id:1,
-					'title': '法务2', 
+					'title': '语法2', 
 					'img': '2.jpg', 
 					'policy_id': '2', 
 					'coupon': {
